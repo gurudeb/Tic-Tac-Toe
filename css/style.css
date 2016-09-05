@@ -1,0 +1,27 @@
+#board {
+    background-color: #14bdac;
+    width: 180px;
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+#board li {
+    float: left;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    list-style: none;
+    background: #14bdac;
+    border: 2px solid #0da192;
+    font-size: 40px;
+    font-size: 4rem;
+    color: #545454;
+}
+#board li.o {
+    color: #fff;
+}
+#board li.locked:hover {
+    cursor: no-drop;
+}
+#board li:not(.locked):hover {
+    cursor: pointer;
+}
